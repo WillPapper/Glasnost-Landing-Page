@@ -1,6 +1,3 @@
-URL,title,country,count
-b,a,United States,27
-Good Night Moon,Book,American Samoa,16
-The Bible,Book,Canada,20
-Testing Software,Book,Cuba,42
-Testing Software Second Edition,China,17
+URL,type,country
+http://www.nytimes.com/,URL,China
+The God Delusion,Book,Iran
