@@ -1,0 +1,307 @@
+h1 {
+  color: #353535;
+}
+
+a {
+  color: #353535;
+}
+
+a:hover, a:focus {
+  color: #1abc9c;
+}
+
+p {
+  color: #8c9398;
+}
+
+h2 {
+  color: #353535;
+}
+
+h2::after {
+  border-bottom: 1px dotted #8c9398;
+}
+
+/* ==========================================================================
+Global Styles
+========================================================================== */
+.dark-bg {
+  background: #f3f5f8;
+}
+
+.light-bg {
+  background-color: #fff;
+}
+
+.dark-box {
+  background: #f3f5f8;
+  -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
+  -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
+  box-shadow: 0px 3px 0px 0px #f0f2f4;
+}
+
+.up-btn {
+  background: #16a085;
+  color: #fff;
+}
+
+.up-btn:hover, up-btn:focus {
+  color: #fff;
+  background: #1abc9c;
+}
+
+/* ==========================================================================
+Owl Carousel Custom CSS
+========================================================================== */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  background: #34495e;
+}
+
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  background: #1abc9c;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: #34495e;
+}
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  color: #FFF;
+}
+
+/* ==========================================================================
+Navigation
+========================================================================== */
+nav {
+  background-color: #2c3e50;
+}
+
+nav ul li {
+  color: rgba(255,255,255,0.6);
+  border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+
+nav ul li a {
+  color: rgba(255,255,255,0.6);
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: rgba(255,255,255,1);
+}
+
+#nav-toggle {
+  background: rgba(255,255,255,0.6);
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  background: #353535;
+}
+
+/* ==========================================================================
+Hero
+========================================================================== */
+.hero h1 span {
+  color: #a1a9b0;
+}
+
+.learn-more-btn {
+  color: #242830;
+  border: solid 2px #242830;
+}
+
+.learn-more-btn:hover, .learn-more-btn:focus {
+  color: #1abc9c;
+  border: solid 2px #1abc9c;
+}
+
+/* ==========================================================================
+Intro
+========================================================================== */
+
+.intro {
+  background: #f3f5f8;
+}
+
+h1.arrow {
+  color: #353535;
+}
+
+h1.arrow:after {
+  border-bottom: 1px dotted #8c9398;
+}
+
+/* ==========================================================================
+Features
+========================================================================== */
+.icon {
+  color: #2c3e50;
+}
+
+/* ==========================================================================
+Pricing
+========================================================================== */
+
+.pricing {
+  background: #f3f5f8;
+}
+
+.pricing .panel {
+  background-color: #fff;
+  border: 5px solid #fff;
+}
+
+.pricing .panel-heading {
+  background: #ecf0f1;
+}
+
+.panel-success>.panel-heading {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.pricing .panel-success p.lead {
+  color: #2c3e50;
+}
+
+.pricing-btn {
+  color: #242830;
+  border: solid 2px #242830;
+}
+
+.pricing-btn:hover, .pricing-btn:focus {
+  color: #1abc9c;
+  border: solid 2px #1abc9c;
+}
+
+/* ==========================================================================
+Swag
+========================================================================== */
+
+.swag h1 {
+  color: #fff;
+}
+
+/* ==========================================================================
+Portfolio
+========================================================================== */
+
+.project-btn {
+  color: #242830;
+  border: solid 2px #242830;
+}
+
+.project-btn:hover, .project-btn:focus {
+  color: #1abc9c;
+  border: solid 2px #1abc9c;
+}
+
+/* ==========================================================================
+Subscribe
+========================================================================== */
+.subscribe h1 {
+  color: #fff;
+}
+
+.subscribe input[type=text] {
+  background-color: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+.subscribe input[type=submit] {
+  background: #16a085;
+  color: #fff;
+}
+
+.subscribe input[type=submit]:hover {
+  background: #1abc9c;
+  color: #fff;
+}
+
+/* ==========================================================================
+CTA
+========================================================================== */
+
+.ignite-cta {
+  background-color: #2c3e50;
+}
+
+.ignite-btn {
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.ignite-btn:hover, .ignite-btn:focus {
+  color: #1abc9c;
+  border: solid 1px #1abc9c;
+}
+
+/* ==========================================================================
+Team
+========================================================================== */
+
+.social-btn:hover, .social-btn:focus {
+  color: #1abc9c;
+}
+
+/* ==========================================================================
+Contact
+========================================================================== */
+
+.contact-details h2 span {
+  color: #1abc9c;
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
+
+footer a {
+  color: #a1a9b0;
+}
+
+footer {
+  background-color: #2c3e50;
+}
+
+footer p {
+  color: #fff;
+}
+
+ul.legals {
+  color: #fff;
+}
+
+/* 320px (iPhone) */
+
+@media screen and (max-width:320px) {
+}
+
+/* 480px (WVGA - Low End Windows Phone) */
+
+@media screen and (max-width:480px) {
+  .wrapper {
+    background: #f3f5f8;
+  }
+}
+
+/* xGA iPad */
+
+@media screen and (max-width:1024px) {
+
+}
+
+/* 1200px (Small Desktop, Netbook) */
+
+@media screen and (max-width:1280px) {
+
+}
+
+/* Bootstrap 990px Breakpoint to 480px */
+
+@media screen and (min-width:480px) and (max-width:991px) {
+  .wrapper {
+    background: #f3f5f8;
+  }
+}
